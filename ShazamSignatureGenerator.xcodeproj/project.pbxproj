@@ -11,6 +11,15 @@
 		BDE49AB0267898840017BA1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE49AAF267898840017BA1D /* ContentView.swift */; };
 		BDE49AB2267898860017BA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AB1267898860017BA1D /* Assets.xcassets */; };
 		BDE49AB5267898860017BA1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AB4267898860017BA1D /* Preview Assets.xcassets */; };
+		BDE49ABD267899D90017BA1D /* MathMediaItemProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE49ABC267899D90017BA1D /* MathMediaItemProperties.swift */; };
+		BDE49ABF26789A2D0017BA1D /* GenerateSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE49ABE26789A2D0017BA1D /* GenerateSignature.swift */; };
+		BDE49AC726789A760017BA1D /* Flower Dance.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AC126789A740017BA1D /* Flower Dance.m4a */; };
+		BDE49AC826789A760017BA1D /* Windy Hill.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AC226789A740017BA1D /* Windy Hill.m4a */; };
+		BDE49AC926789A760017BA1D /* 起风了.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AC326789A740017BA1D /* 起风了.m4a */; };
+		BDE49ACA26789A770017BA1D /* 学校不允许乱壁咚^.^.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AC426789A750017BA1D /* 学校不允许乱壁咚^.^.m4a */; };
+		BDE49ACB26789A770017BA1D /* 若能绽放光芒.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AC526789A760017BA1D /* 若能绽放光芒.m4a */; };
+		BDE49ACC26789A770017BA1D /* 风居住的街道.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BDE49AC626789A760017BA1D /* 风居住的街道.m4a */; };
+		BDE49ACE26789BC50017BA1D /* Intro.png in Resources */ = {isa = PBXBuildFile; fileRef = BDE49ACD26789BC50017BA1D /* Intro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		BDE49AAF267898840017BA1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDE49AB1267898860017BA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDE49AB4267898860017BA1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDE49ABC267899D90017BA1D /* MathMediaItemProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathMediaItemProperties.swift; sourceTree = "<group>"; };
+		BDE49ABE26789A2D0017BA1D /* GenerateSignature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateSignature.swift; sourceTree = "<group>"; };
+		BDE49AC126789A740017BA1D /* Flower Dance.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flower Dance.m4a"; sourceTree = "<group>"; };
+		BDE49AC226789A740017BA1D /* Windy Hill.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Windy Hill.m4a"; sourceTree = "<group>"; };
+		BDE49AC326789A740017BA1D /* 起风了.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "起风了.m4a"; sourceTree = "<group>"; };
+		BDE49AC426789A750017BA1D /* 学校不允许乱壁咚^.^.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "学校不允许乱壁咚^.^.m4a"; sourceTree = "<group>"; };
+		BDE49AC526789A760017BA1D /* 若能绽放光芒.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "若能绽放光芒.m4a"; sourceTree = "<group>"; };
+		BDE49AC626789A760017BA1D /* 风居住的街道.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "风居住的街道.m4a"; sourceTree = "<group>"; };
+		BDE49ACD26789BC50017BA1D /* Intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Intro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +71,9 @@
 			children = (
 				BDE49AAD267898840017BA1D /* ShazamSignatureGeneratorApp.swift */,
 				BDE49AAF267898840017BA1D /* ContentView.swift */,
+				BDE49AC026789A560017BA1D /* Songs */,
+				BDE49ABB267899AC0017BA1D /* Extensions */,
+				BDE49ACD26789BC50017BA1D /* Intro.png */,
 				BDE49AB1267898860017BA1D /* Assets.xcassets */,
 				BDE49AB3267898860017BA1D /* Preview Content */,
 			);
@@ -65,6 +86,28 @@
 				BDE49AB4267898860017BA1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDE49ABB267899AC0017BA1D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BDE49ABC267899D90017BA1D /* MathMediaItemProperties.swift */,
+				BDE49ABE26789A2D0017BA1D /* GenerateSignature.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BDE49AC026789A560017BA1D /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				BDE49AC126789A740017BA1D /* Flower Dance.m4a */,
+				BDE49AC226789A740017BA1D /* Windy Hill.m4a */,
+				BDE49AC426789A750017BA1D /* 学校不允许乱壁咚^.^.m4a */,
+				BDE49AC526789A760017BA1D /* 若能绽放光芒.m4a */,
+				BDE49AC326789A740017BA1D /* 起风了.m4a */,
+				BDE49AC626789A760017BA1D /* 风居住的街道.m4a */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +168,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE49AC726789A760017BA1D /* Flower Dance.m4a in Resources */,
+				BDE49AC926789A760017BA1D /* 起风了.m4a in Resources */,
+				BDE49ACC26789A770017BA1D /* 风居住的街道.m4a in Resources */,
+				BDE49ACB26789A770017BA1D /* 若能绽放光芒.m4a in Resources */,
 				BDE49AB5267898860017BA1D /* Preview Assets.xcassets in Resources */,
+				BDE49AC826789A760017BA1D /* Windy Hill.m4a in Resources */,
+				BDE49ACA26789A770017BA1D /* 学校不允许乱壁咚^.^.m4a in Resources */,
 				BDE49AB2267898860017BA1D /* Assets.xcassets in Resources */,
+				BDE49ACE26789BC50017BA1D /* Intro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE49ABD267899D90017BA1D /* MathMediaItemProperties.swift in Sources */,
 				BDE49AB0267898840017BA1D /* ContentView.swift in Sources */,
 				BDE49AAE267898840017BA1D /* ShazamSignatureGeneratorApp.swift in Sources */,
+				BDE49ABF26789A2D0017BA1D /* GenerateSignature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ShazamSignatureGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JGXJ77W39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -276,7 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,6 +351,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ShazamSignatureGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = 3JGXJ77W39;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -305,7 +359,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
